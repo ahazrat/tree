@@ -2,9 +2,9 @@
   "name": "fractal-strategies",
   "version": "0.1.0",
   "description": "Fractal Strategies Data Studio",
-  "main": "./dist/bundle.js",
+  "main": "./docs/bundle.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --hot --content-base dist/",
+    "start": "webpack-dev-server --inline --hot --content-base docs/",
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

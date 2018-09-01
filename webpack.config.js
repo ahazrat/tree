@@ -8,9 +8,9 @@ var extractPlugin = new ExtractTextPlugin({
 module.exports = {
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: 'bundle.js',
-        publicPath: '/assets/',
+        // publicPath: '/assets/',
     },
     module: {
         rules: [
